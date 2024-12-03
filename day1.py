@@ -8,7 +8,7 @@ left_list = []
 right_list = []
 
 for i in range(len(input_list)):
-    curr_item = input_list[i].split(",")
+    curr_item = input_list[i].split("   ")
     left_list.append(int(curr_item[0]))
     right_list.append(int(curr_item[1]))
 
